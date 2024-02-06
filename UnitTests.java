@@ -1,5 +1,6 @@
 package finalProject;
 
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
@@ -128,7 +129,7 @@ public class UnitTests { // obviously this is where I am Unit Testing my code
 		int MaxEnemyHealth = 150;
 		int enemyAttackDamage = 25;
 
-		Random rand = new Random();
+		Random rand = new SecureRandom();
 
 		boolean Running = true;
 		while (Running) {
@@ -233,7 +234,7 @@ public class UnitTests { // obviously this is where I am Unit Testing my code
 		int MaxEnemyHealth = 150;
 		int enemyAttackDamage = 25;
 
-		Random rand = new Random();
+		Random rand = new SecureRandom();
 
 		// System.out.println("CHoose a number from this sorted list");
 		// System.out.println();

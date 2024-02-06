@@ -1,5 +1,6 @@
 package finalProject;
 
+import java.security.SecureRandom;
 import java.util.Scanner;
 import java.util.Stack;
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public abstract class baseCharacters {
 	static int MaxEnemyHealth = 150;
 	static int enemyAttackDamage = 25;
 
-	static Random rand = new Random();
+	static Random rand = new SecureRandom();
 
 	public static void enemies() { // this method is where you choose your enemy
 		Stack<String> enemies = new Stack<String>(); // Stack is presented here
